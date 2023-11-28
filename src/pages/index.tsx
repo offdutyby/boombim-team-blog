@@ -12,7 +12,7 @@ const Home = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
       <div className={`my-5 w-full`}>
         <div className={`relative`}>
           <Image
-            src={`/test-image.jpg`}
+            src={`/mainImg.jpg`}
             alt="대표 이미지"
             width={"50"}
             height={45}
